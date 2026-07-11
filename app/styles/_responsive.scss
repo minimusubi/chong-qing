@@ -1,0 +1,42 @@
+@media (min-width: 640px) {
+	.menu-shell {
+		padding-top: 55px;
+		padding-bottom: 60px;
+	}
+
+	.item-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.mobile-total {
+		display: none;
+	}
+}
+
+@media print {
+	.topbar,
+	.menu-shell,
+	.mobile-total,
+	.drawer-header button,
+	.share-code button,
+	.drawer-footer .btn {
+		display: none !important;
+	}
+
+	.summary-overlay {
+		position: static;
+		display: block;
+		background: #fff;
+	}
+
+	.summary-drawer {
+		width: 100%;
+		height: auto;
+		padding: 0;
+		box-shadow: none;
+	}
+
+	.drawer-footer {
+		margin-top: 20px;
+	}
+}

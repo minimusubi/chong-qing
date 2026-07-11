@@ -1,0 +1,36 @@
+{
+	"name": "nuxt-template-bootstrap",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "dotenvx run --env NODE_OPTIONS=--enable-source-maps -- nuxt dev --port 8025",
+		"format": "prettier . --write",
+		"generate": "nuxt generate",
+		"postinstall": "nuxt prepare",
+		"preview": "nuxt preview",
+		"start": "dotenvx run --env NITRO_PORT=8025 -- node .output/server/index.mjs"
+	},
+	"dependencies": {
+		"@dotenvx/dotenvx": "^2.1.4",
+		"@nuxt/eslint": "^1.7.1",
+		"@nuxt/fonts": "^0.14.0",
+		"@nuxt/icon": "^2.0.0",
+		"@nuxtjs/color-mode": "^4.0.0",
+		"eslint": "^10.0.2",
+		"nuxt": "^4.4.6",
+		"qrcode": "^1.5.4"
+	},
+	"devDependencies": {
+		"@types/node": "^24.10.14",
+		"eslint-config-prettier": "^10.1.8",
+		"prettier": "^3.6.2",
+		"sass-embedded": "^1.89.2"
+	},
+	"allowScripts": {
+		"@parcel/watcher@2.5.6": true,
+		"esbuild@0.27.7": true,
+		"esbuild@0.28.1": true,
+		"unrs-resolver@1.12.2": true
+	}
+}

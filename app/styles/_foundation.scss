@@ -1,0 +1,101 @@
+:root {
+	--ink: #18231f;
+	--paper: #f7f5ef;
+	--cream: #eeeadc;
+	--lime: #d7f05a;
+	--orange: #f17245;
+	--muted: #6a726c;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	color: var(--ink);
+	background: var(--paper);
+	font-family: 'DM Sans', sans-serif;
+
+	&.table-summary-open {
+		overflow: hidden;
+	}
+}
+
+button {
+	font: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin-top: 0;
+}
+
+h1,
+h2 {
+	font-family: 'Playfair Display', serif;
+}
+
+h1 {
+	font-size: clamp(42px, 11vw, 59px);
+	line-height: 0.98;
+	letter-spacing: -0.045em;
+
+	em {
+		color: var(--orange);
+	}
+}
+
+h2 {
+	font-size: 25px;
+}
+
+.eyebrow {
+	margin: 0 0 8px;
+	color: var(--muted);
+	font-family: 'DM Mono', monospace;
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 0.09em;
+}
+
+.form-label {
+	margin-bottom: 7px;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.form-control {
+	border-color: #c8c6bc;
+	border-radius: 10px;
+}
+
+.btn {
+	border-radius: 10px;
+	font-weight: 700;
+
+	&-primary {
+		margin-top: 13px;
+		border-color: var(--ink);
+		background: var(--ink);
+	}
+
+	&-outline-dark {
+		border-color: var(--ink);
+		color: var(--ink);
+
+		&:hover,
+		&:active {
+			border-color: var(--ink) !important;
+			background: var(--ink) !important;
+			color: #fff !important;
+		}
+	}
+
+	&-primary .material-symbols-outlined {
+		margin-right: 5px;
+		vertical-align: -4px;
+	}
+}

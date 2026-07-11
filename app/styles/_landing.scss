@@ -1,0 +1,149 @@
+.landing-shell {
+	display: grid;
+	min-height: 100vh;
+	padding: 36px 20px;
+	place-items: center;
+	background:
+		radial-gradient(circle at 85% 8%, #d7f05a 0 9%, transparent 9.2%),
+		var(--cream);
+}
+
+.landing-card {
+	width: min(100%, 480px);
+}
+
+.brand-mark {
+	display: grid;
+	width: 56px;
+	height: 56px;
+	margin-bottom: 26px;
+	place-items: center;
+	border-radius: 18px;
+	background: var(--lime);
+	color: var(--ink);
+	box-shadow: 4px 4px 0 var(--ink);
+	font-size: 29px;
+
+	&.small {
+		display: inline-grid;
+		width: 30px;
+		height: 30px;
+		margin: 0;
+		border-radius: 9px;
+		box-shadow: none;
+		font-size: 17px;
+	}
+}
+
+.intro {
+	max-width: 390px;
+	margin: 20px 0 32px;
+	color: #536059;
+	font-size: 16px;
+	line-height: 1.55;
+}
+
+.action-panel {
+	margin-top: 18px;
+	padding: 14px;
+	border: 1px solid #d5d1c3;
+	border-radius: 18px;
+	background: #fffefa;
+	box-shadow: 6px 6px 0 #d8d4c7;
+
+	.eyebrow {
+		margin-bottom: 7px;
+		color: var(--orange);
+
+		span {
+			display: inline-grid;
+			width: 21px;
+			height: 21px;
+			place-items: center;
+			border-radius: 50%;
+			background: var(--lime);
+			color: var(--ink);
+			font-family: 'DM Mono', monospace;
+			font-size: 11px;
+		}
+	}
+}
+
+.field-help {
+	margin: -2px 0 10px;
+	color: var(--muted);
+	font-size: 12px;
+}
+
+.action-choice {
+	margin-top: 22px;
+
+	h2 {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		margin-bottom: 5px;
+		font-family: 'DM Sans', sans-serif;
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	p {
+		margin-bottom: 12px;
+		color: var(--muted);
+		font-size: 13px;
+		line-height: 1.4;
+	}
+}
+
+.join-choice {
+	margin-top: 14px;
+
+	.form-label {
+		display: block;
+		margin-top: 15px;
+	}
+
+	.btn {
+		margin-top: 12px;
+	}
+}
+
+.or {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 22px 0;
+	color: #99978f;
+	font-family: 'DM Mono', monospace;
+	font-size: 11px;
+
+	&::before,
+	&::after {
+		flex: 1;
+		height: 1px;
+		background: #dedbd1;
+		content: '';
+	}
+}
+
+.code-input {
+	font-family: 'DM Mono', monospace;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+}
+
+.error-message {
+	margin: 12px 0 0;
+	color: #b43d28;
+	font-size: 13px;
+}
+
+.menu-editor-link {
+	display: block;
+	width: fit-content;
+	margin: 20px auto 0;
+	color: var(--muted);
+	font-size: 13px;
+	font-weight: 700;
+}

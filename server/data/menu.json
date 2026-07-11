@@ -1,0 +1,379 @@
+[
+	{
+		"id": "soup-base",
+		"name": "Soup base",
+		"items": [
+			{
+				"id": "original-marrow-broth",
+				"name": "Original Marrow Broth",
+				"description": "Soup base"
+			},
+			{
+				"id": "spicy-marrow-broth",
+				"name": "Spicy Marrow Broth",
+				"description": "Soup base"
+			},
+			{
+				"id": "spicy-cabbage-broth",
+				"name": "Spicy Cabbage Broth",
+				"description": "Soup base"
+			},
+			{
+				"id": "numb-flavor-broth",
+				"name": "Numb Flavor Broth",
+				"description": "Soup base"
+			},
+			{
+				"id": "tomato-broth",
+				"name": "Tomato Broth",
+				"description": "Soup base"
+			},
+			{
+				"id": "tom-yum-broth",
+				"name": "Tom Yum Broth (Spicy)",
+				"description": "Soup base"
+			},
+			{
+				"id": "herbal-marrow-broth",
+				"name": "Herbal Marrow Broth",
+				"description": "Soup base"
+			},
+			{
+				"id": "vegan-mushroom-broth",
+				"name": "Vegan Mushroom Broth",
+				"description": "Soup base"
+			}
+		]
+	},
+	{
+		"id": "meat",
+		"name": "Meat",
+		"items": [
+			{
+				"id": "supreme-lamb-shoulder",
+				"name": "Supreme Lamb Shoulder",
+				"description": "Serving: 10 slices"
+			},
+			{
+				"id": "supreme-beef",
+				"name": "Supreme Beef",
+				"description": "Serving: 10 slices"
+			},
+			{
+				"id": "beef-short-plate",
+				"name": "Beef Short Plate",
+				"description": "Serving: 10 slices (aka. Slice Beef Belly)"
+			},
+			{
+				"id": "sliced-pork-belly",
+				"name": "Sliced Pork Belly",
+				"description": "Serving: 10 slices (aka. Thin Slice Pork Belly)"
+			},
+			{
+				"id": "chicken-thigh",
+				"name": "Chicken Thigh",
+				"description": "Serving: 5 pieces"
+			}
+		]
+	},
+	{
+		"id": "other-meat",
+		"name": "Other meat & meatballs",
+		"items": [
+			{
+				"id": "beef-omasum-tripe",
+				"name": "Beef Omasum Tripe",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "beef-honeycomb-tripe",
+				"name": "Beef Honeycomb Tripe",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "spam",
+				"name": "Spam",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "pork-intestine",
+				"name": "Pork Intestine",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "mini-pork-sausage",
+				"name": "Mini Pork Sausage",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "cheese-fish-sausage",
+				"name": "Cheese Fish Sausage",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "fish-ball-meat",
+				"name": "Fish Ball with Meat",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "cuttlefish-ball",
+				"name": "Cuttlefish Ball",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "fish-cake",
+				"name": "Fish Cake",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "quail-egg",
+				"name": "Quail Egg",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "beef-tendon-meatball",
+				"name": "Beef Tendon Meatball",
+				"description": "Serving: 2"
+			}
+		]
+	},
+	{
+		"id": "seafood",
+		"name": "Seafood",
+		"items": [
+			{
+				"id": "whole-shrimp",
+				"name": "Whole Shrimp Head On",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "fish-fillet",
+				"name": "Fish Fillet",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "squid-carved",
+				"name": "Squid Carved",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "baby-octopus",
+				"name": "Baby Octopus",
+				"description": "Serving: 1"
+			},
+			{
+				"id": "whole-black-mussel",
+				"name": "Whole Black Mussel",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "clam",
+				"name": "Clam",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "shrimp-paste",
+				"name": "Shrimp Paste",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "fish-tofu",
+				"name": "Fish Tofu",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "fish-ball-roe",
+				"name": "Fish Ball with Roe",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "imitation-crab-cake",
+				"name": "Imitation Crab Cake",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "imitation-crab-stick",
+				"name": "Imitation Crab Stick",
+				"description": "Serving: 2"
+			}
+		]
+	},
+	{
+		"id": "other",
+		"name": "Other",
+		"items": [
+			{
+				"id": "bean-curd-roll",
+				"name": "Bean Curd Roll",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "chinese-fried-crouton",
+				"name": "Chinese Fried Crouton",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "lucky-bag-roe",
+				"name": "Lucky Bag with Roe",
+				"description": "Serving: 1"
+			},
+			{
+				"id": "slice-rice-cake",
+				"name": "Slice Rice Cake",
+				"description": "Serving: 2"
+			},
+			{
+				"id": "steamed-rice-hot-pot",
+				"name": "Steam Rice",
+				"description": "Serving: 1"
+			}
+		]
+	},
+	{
+		"id": "bbq-meat",
+		"name": "BBQ meat",
+		"items": [
+			{
+				"id": "slice-beef-belly",
+				"name": "Slice Beef Belly",
+				"description": "Serving: 10 slices (DUPLICATE OF Beef Short Plate)"
+			},
+			{
+				"id": "new-york-steak",
+				"name": "New York Steak",
+				"description": "Serving: 1"
+			},
+			{
+				"id": "beef-bulgogi",
+				"name": "Beef Bulgogi",
+				"description": "Serving: 5"
+			},
+			{
+				"id": "original-kalbi",
+				"name": "Original Kalbi",
+				"description": "Serving: 1"
+			},
+			{
+				"id": "marinated-kalbi",
+				"name": "Marinated Kalbi",
+				"description": "Serving: 1"
+			},
+			{
+				"id": "bbq-chicken",
+				"name": "BBQ Chicken",
+				"description": "Serving: 1"
+			},
+			{
+				"id": "spicy-bbq-chicken",
+				"name": "Spicy BBQ Chicken",
+				"description": "Serving: 1"
+			},
+			{
+				"id": "thick-cut-pork-belly",
+				"name": "Thick Cut Pork Belly",
+				"description": "Serving: 1"
+			},
+			{
+				"id": "thin-slice-pork-belly",
+				"name": "Thin Slice Pork Belly",
+				"description": "Serving: 10 slices (DUPLICATE OF Sliced Pork Belly)"
+			},
+			{
+				"id": "steamed-rice-bbq",
+				"name": "Steam Rice",
+				"description": "Serving: 1 (DUPLICATE)"
+			}
+		]
+	},
+	{
+		"id": "new-category",
+		"name": "Free Drink",
+		"items": [
+			{
+				"id": "water",
+				"name": "Water",
+				"description": ""
+			},
+			{
+				"id": "hot-tea",
+				"name": "Hot Tea ?????",
+				"description": "Might not be a thing anymore"
+			},
+			{
+				"id": "wintermelon-tea",
+				"name": "Wintermelon Tea",
+				"description": "Canned"
+			},
+			{
+				"id": "chinese-herbal-tea",
+				"name": "Chinese Herbal Tea",
+				"description": "Canned"
+			},
+			{
+				"id": "chrysanthemum-tea",
+				"name": "Chrysanthemum Tea",
+				"description": "Canned"
+			},
+			{
+				"id": "coconut-juice",
+				"name": "Coconut Juice",
+				"description": "Canned"
+			},
+			{
+				"id": "canned-soymilk",
+				"name": "Canned Soymilk",
+				"description": "Still canned"
+			},
+			{
+				"id": "assam-milk-tea",
+				"name": "ASSAM Milk Tea",
+				"description": "Canned"
+			},
+			{
+				"id": "coke",
+				"name": "Coke",
+				"description": ""
+			},
+			{
+				"id": "diet-coke",
+				"name": "Diet Coke",
+				"description": ""
+			},
+			{
+				"id": "coke-zero",
+				"name": "Coke Zero",
+				"description": ""
+			},
+			{
+				"id": "sprite",
+				"name": "Sprite",
+				"description": ""
+			},
+			{
+				"id": "fruit-punch",
+				"name": "Fruit Punch",
+				"description": ""
+			},
+			{
+				"id": "sprunch",
+				"name": "Sprunch",
+				"description": "Yeah, ahhh-ah you know what it issss"
+			},
+			{
+				"id": "dr-pepper",
+				"name": "Dr. Pepper",
+				"description": ""
+			},
+			{
+				"id": "unsweetened-ice-tea",
+				"name": "Unsweetened Ice Tea",
+				"description": ""
+			},
+			{
+				"id": "raspberry-ice-tea",
+				"name": "Raspberry Ice Tea",
+				"description": ""
+			}
+		]
+	}
+]
