@@ -300,36 +300,6 @@
 				"description": "Might not be a thing anymore"
 			},
 			{
-				"id": "wintermelon-tea",
-				"name": "Wintermelon Tea",
-				"description": "Canned"
-			},
-			{
-				"id": "chinese-herbal-tea",
-				"name": "Chinese Herbal Tea",
-				"description": "Canned"
-			},
-			{
-				"id": "chrysanthemum-tea",
-				"name": "Chrysanthemum Tea",
-				"description": "Canned"
-			},
-			{
-				"id": "coconut-juice",
-				"name": "Coconut Juice",
-				"description": "Canned"
-			},
-			{
-				"id": "canned-soymilk",
-				"name": "Canned Soymilk",
-				"description": "Still canned"
-			},
-			{
-				"id": "assam-milk-tea",
-				"name": "ASSAM Milk Tea",
-				"description": "Canned"
-			},
-			{
 				"id": "coke",
 				"name": "Coke",
 				"description": ""
