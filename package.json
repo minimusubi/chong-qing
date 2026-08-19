@@ -12,17 +12,17 @@
 		"start": "dotenvx run --env NITRO_PORT=8025 -- node .output/server/index.mjs"
 	},
 	"dependencies": {
-		"@dotenvx/dotenvx": "^2.1.4",
 		"@nuxt/eslint": "^1.7.1",
 		"@nuxt/fonts": "^0.14.0",
 		"@nuxt/icon": "^2.0.0",
 		"@nuxtjs/color-mode": "^4.0.0",
-		"eslint": "^10.0.2",
 		"nuxt": "^4.4.6",
 		"qrcode": "^1.5.4"
 	},
 	"devDependencies": {
+		"@dotenvx/dotenvx": "^2.1.4",
 		"@types/node": "^24.10.14",
+		"eslint": "^10.0.2",
 		"eslint-config-prettier": "^10.1.8",
 		"prettier": "^3.6.2",
 		"sass-embedded": "^1.89.2"
